@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2048 Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="grid-container">
+            <!-- Game tiles will be dynamically generated here -->
+        </div>
+        <div class="score-container">
+            <h1>Score: <span id="score">0</span></h1>
+            <div class="button-container">
+                <button id="ai-button" class="btn btn-primary">PLAY (AI)</button>
+                <button id="reset-button" class="btn btn-secondary">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/game.js"></script>
+</body>
+</html>
